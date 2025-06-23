@@ -1,3 +1,4 @@
+
 import express from 'express'
 import cors from 'cors'
 
@@ -7,7 +8,7 @@ const app = express()
 app.use(express.json())
 // Decrypt the data 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://backend-roan-tau-fsh5d0nf03.vercel.app/',
 }))
 // allow requests from 5173 port
 
